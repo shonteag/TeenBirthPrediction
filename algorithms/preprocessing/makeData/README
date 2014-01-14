@@ -1,0 +1,14 @@
+makeData.py
+======================
+
+makeData.py is a script used to generate a training and test set from a preprepared single-file dataset. There are a number of techniques for splitting the dataset, and they are detailed in the Options section, under Usage, below.
+
+Usage:
+makeData.py [fullFile] [trainFile] [testFile] [options (optional)]
+
+Options:
+  --test-size #               The size of the generated testing set (default 300)
+  --random                    Will take vectors at random
+  --byyear 				      Cuts item by year
+
+USAGE WARNING: [trainFile] and [testFile] are out puts. The script will overwrite anything in these two arguments.
