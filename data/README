@@ -1,0 +1,17 @@
+DATASETS
+=======================
+
+All datasets include the same 12 features. Several of the datasets used were manipulated to include more datapoints, however. A brief description of each data file follows.
+
+normaldata.csv
+-> 1112 entries
+-> Missing features were imputed using a linear projection model.
+
+nearestneighbordata.csv
+-> 1459 entries
+-> Missing features were imputed using a linear projection model.
+-> Further missing features were filled by using a k-nearest neighbor algorithm.
+
+normaldata_countryholdout_[test/train].csv
+-> Created from normaldata.csv, total 1112 entries
+-> _test.csv dataset created by holding out all entries from randomly selected countries.
