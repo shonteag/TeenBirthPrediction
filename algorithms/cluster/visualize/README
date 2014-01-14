@@ -1,0 +1,12 @@
+clusterAnalyze.py
+============================
+
+This script will output a pie chart for every cluster in the [clustered data] input. The pie chart will show fractions of entries belonging to areas in the world.
+
+Usage:
+clusterAnalyze.py [clustered data] [options (optional)]
+
+Options:
+  No options exist at this time.
+
+USAGE WARNING: [clustered data] must be output from cluster.py where "--output [file]" is enabled.

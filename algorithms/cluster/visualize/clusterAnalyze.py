@@ -58,12 +58,12 @@ for clusterID in range(0,len(clusters)):
 	for countryID in range(0,9):
 		print "  " + str(sup.codeToCountry(countryID)) + ": " + str(infoCountryCluster[int(clusterID)][countryID])
 
-	#pie chart'n'shit
+	#pie chart'n'shiz
 	plt.figure(1,figsize=(6,6))
 	labels = ['North America','Central America','South America','Western Europe','Eastern Europe','Africa','Middle East','Asia','South East Asia']
 	fracs = infoCountryCluster[clusterID]
 
-	#trim dat shit
+	#trim labels
 	for index,num in enumerate(fracs):
 		if num == 0:
 			del fracs[index]
