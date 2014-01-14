@@ -1,0 +1,13 @@
+randomForest.py
+=========================
+
+Usage:
+randomForest.py [trainFile] [testFile] [options (optional)]
+
+Options:
+  --max-depth #           Sets the max depth for the trees
+  --error-margin #        Sets confidence interval
+  --tryall                Tries all max-depths from 1 to --maxDepth
+    --plot                Plots results
+
+CODE ERROR WARNING: "--plot" behaves irradically, and possibly plots the incorrect accuracy values. Do not use unless fixed. We will hunt down the bug at a later date.

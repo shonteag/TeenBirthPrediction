@@ -19,7 +19,7 @@ startTime = time.time()
 def printUsageAndExit(error):
 	if error != "":
 		print "!ArgumentError: " + str(error)
-	print "Usage: randomForest.py [trainFile] [testFile] [options (optional)"
+	print "Usage: randomForest.py [trainFile] [testFile] [options (optional)]"
 	print "  Options:"
 	print "    --max-depth #           Sets the max depth for the trees"
 	print "    --error-margin #        Sets confidence interval"
