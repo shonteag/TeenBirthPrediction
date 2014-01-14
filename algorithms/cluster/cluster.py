@@ -20,7 +20,7 @@ sup = support.support()
 def printUsageAndExit(error):
 	print "-" * 64
 	print "ARGUMENT ERROR: " + str(error)
-	print "Usage: kmeans.py [dataFile] [options (optional)]"
+	print "Usage: cluster.py [dataFile] [options (optional)]"
 	print "  Options:"
 	print "    --k #             Sets the number of clusters (default = 5)"
 	print "    --components #    Sets num_components for PCA (default = 3)"

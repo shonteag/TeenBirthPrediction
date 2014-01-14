@@ -1,0 +1,13 @@
+cluster.py
+============================
+
+Usage:
+cluster.py [dataFile] [options (optional)]
+
+Options:
+  --k #             Sets the number of clusters (default = 5)
+  --components #    Sets num_components for PCA (default = 3)
+  --output [file]   Gives program a file to output clustered data
+
+
+NOTE: To visualize the data, use the clusterAnalyze.py script inside the "visualize" directory (usage detailed inside Visualize folder).
